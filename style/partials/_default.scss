@@ -9,8 +9,12 @@
 body {
   font-size: 16px;
   font-family: 'Epilogue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
 
-  header, section, footer {
-    max-width: 1440px;
-  }
+header, section, footer {
+  max-width: 90rem;
+  padding: 0 10.3125rem;
 }
