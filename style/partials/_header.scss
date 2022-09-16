@@ -1,4 +1,30 @@
+@use 'colors' as *;
+@use 'default' as *;
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 4.13rem;
+
+
+  button {
+    border: 1px solid $dark-blue;
+    background-color: #FFF;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1rem; 
+    font-size: 1rem;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    transition: 0.4s;
+
+    &:hover{
+      cursor: pointer;
+      color: $white;
+      background-color: $dark-blue;
+    }
+  }
 }
+

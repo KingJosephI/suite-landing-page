@@ -21,4 +21,23 @@ header, section, footer {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 4.13rem;
+}
+header button {
+  border: 1px solid #172339;
+  background-color: #FFF;
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  line-height: 2rem;
+  transition: 0.4s;
+}
+header button:hover {
+  cursor: pointer;
+  color: #FAF8F6;
+  background-color: #172339;
 }/*# sourceMappingURL=index.css.map */
