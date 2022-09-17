@@ -1,0 +1,81 @@
+@use '../abstracts/' as *;
+
+main{
+  padding: 4.187rem 0;
+}
+
+section:first-of-type{
+  
+  
+  display: flex;
+  align-items: center;
+  gap: 5.9rem;
+
+
+  h1{
+    font-weight: normal;
+    font-size: 4.5rem;
+    color:$dark-blue;
+    line-height: 4.875rem;
+
+  }
+
+  p{
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: $dark-grey;
+    padding: 3.75rem 0;
+  }
+
+  button {
+    border: 1px solid $dark-blue;
+    background-color: $dark-blue;
+    color: #FFF;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1rem; 
+    font-size: 1rem;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    transition: 0.4s;
+
+    &:hover{
+      cursor: pointer;
+      color: $white;
+      background-color: $dark-blue;
+    }
+  }
+
+  & > div:first-child{
+    display: flex;
+    align-items: center;
+  }
+  
+
+}
+  .description{
+    margin-right: -30rem;
+    z-index: 100;
+    padding-right: 20rem;
+
+    p {
+      width: 23rem;
+    }
+  }
+
+  .statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    h3{
+      font-size: 3rem;
+      color: $dark-blue;
+      line-height: 3.5rem;
+    }
+
+    span {
+      font-size: 1rem;
+      color: $dark-grey;
+      text-transform: uppercase;
+    }
+  }

@@ -40,4 +40,72 @@ header button:hover {
   cursor: pointer;
   color: #FAF8F6;
   background-color: #172339;
+}
+
+main {
+  padding: 4.187rem 0;
+}
+
+section:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 5.9rem;
+}
+section:first-of-type h1 {
+  font-weight: normal;
+  font-size: 4.5rem;
+  color: #172339;
+  line-height: 4.875rem;
+}
+section:first-of-type p {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  color: #49566D;
+  padding: 3.75rem 0;
+}
+section:first-of-type button {
+  border: 1px solid #172339;
+  background-color: #172339;
+  color: #FFF;
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  line-height: 2rem;
+  transition: 0.4s;
+}
+section:first-of-type button:hover {
+  cursor: pointer;
+  color: #FAF8F6;
+  background-color: #172339;
+}
+section:first-of-type > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  margin-right: -30rem;
+  z-index: 100;
+  padding-right: 20rem;
+}
+.description p {
+  width: 23rem;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.statistics h3 {
+  font-size: 3rem;
+  color: #172339;
+  line-height: 3.5rem;
+}
+.statistics span {
+  font-size: 1rem;
+  color: #49566D;
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */

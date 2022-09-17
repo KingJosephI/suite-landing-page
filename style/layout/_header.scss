@@ -1,5 +1,4 @@
-@use 'colors' as *;
-@use 'default' as *;
+@use '../abstracts/' as *;
 
 header {
   display: flex;
