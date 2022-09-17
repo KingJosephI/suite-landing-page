@@ -1,14 +1,15 @@
 @use '../abstracts/' as *;
 
-main{
-  padding: 4.187rem 0;
-}
+// {
+//   
+// }
 
-section:first-of-type{
+.hero {
   display: flex;
   align-items: center;
   gap: 5.9rem;
-
+padding-top: 4.187rem;
+padding-bottom: 4.187rem;
 
   h1{
     font-weight: normal;
