@@ -108,4 +108,13 @@ section:first-of-type > div:first-child {
   font-size: 1rem;
   color: #49566D;
   text-transform: uppercase;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #F3EDE7;
+  padding-bottom: 4.875rem;
+  padding-top: 22.94rem;
 }/*# sourceMappingURL=index.css.map */
