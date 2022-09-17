@@ -5,8 +5,6 @@ main{
 }
 
 section:first-of-type{
-  
-  
   display: flex;
   align-items: center;
   gap: 5.9rem;
@@ -50,32 +48,32 @@ section:first-of-type{
     display: flex;
     align-items: center;
   }
-  
-
 }
-  .description{
-    margin-right: -30rem;
-    z-index: 100;
-    padding-right: 20rem;
 
-    p {
-      width: 23rem;
-    }
+.description{
+  margin-right: -30rem;
+  z-index: 100;
+  padding-right: 20rem;
+
+  p {
+    width: 23rem;
+  }
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  h3{
+    font-size: 3rem;
+    color: $dark-blue;
+    line-height: 3.5rem;
   }
 
-  .statistics {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    h3{
-      font-size: 3rem;
-      color: $dark-blue;
-      line-height: 3.5rem;
-    }
-
-    span {
-      font-size: 1rem;
-      color: $dark-grey;
-      text-transform: uppercase;
-    }
+  span {
+    font-size: 1rem;
+    color: $dark-grey;
+    text-transform: uppercase;
   }
+}
